@@ -1,8 +1,8 @@
 /* General Body Styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -10,51 +10,66 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #2c3e50;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: white;
-  padding: 100px 0;
+  padding: 150px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header-content h1 {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 4rem;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 .header-content p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
+  font-weight: 300;
 }
 
 .header-btn {
-  background-color: #e67e22;
+  background-color: #29b6f6;
   color: white;
-  padding: 15px 30px;
+  padding: 15px 40px;
   text-decoration: none;
-  font-size: 1.1rem;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.4s ease;
 }
 
 .header-btn:hover {
-  background-color: #d35400;
+  background-color: #0277bd;
+  transform: scale(1.05);
 }
 
 /* Project Overview */
 #overview {
-  padding: 50px 20px;
-  background-color: #fff;
+  padding: 80px 20px;
+  background-color: #282828;
+  border-radius: 15px;
+  margin: 40px auto;
+  width: 80%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 #overview h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
+}
+
+#overview p {
+  font-size: 1.25rem;
+  line-height: 1.6;
 }
 
 /* CTA Section */
 #cta {
-  padding: 50px 20px;
-  background-color: #ecf0f1;
+  padding: 80px 20px;
+  background-color: #1f1f1f;
+  border-radius: 15px;
+  margin: 40px auto;
+  width: 80%;
 }
 
 #cta form {
@@ -62,29 +77,38 @@ header {
 }
 
 #cta input {
-  padding: 10px;
+  padding: 15px;
   width: 300px;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
 }
 
 #cta button {
-  padding: 10px 20px;
-  background-color: #e67e22;
+  padding: 15px 30px;
+  background-color: #29b6f6;
   color: white;
   border: none;
   font-size: 1.1rem;
-  border-radius: 5px;
+  border-radius: 50px;
+  margin-left: 10px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 #cta button:hover {
-  background-color: #d35400;
+  background-color: #0277bd;
+  transform: scale(1.05);
 }
 
 /* Roadmap Section */
 #roadmap {
-  padding: 50px 20px;
-  background-color: #fff;
+  padding: 80px 20px;
+  background-color: #282828;
+  border-radius: 15px;
+  margin: 40px auto;
+  width: 80%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 #roadmap ul {
@@ -93,23 +117,25 @@ header {
 }
 
 #roadmap li {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 15px;
+  line-height: 1.6;
 }
 
 /* Social Links Section */
 #social {
-  padding: 50px 20px;
-  background-color: #ecf0f1;
+  padding: 80px 20px;
+  background-color: #1f1f1f;
 }
 
 #social a {
-  color: #3498db;
+  color: #29b6f6;
   text-decoration: none;
   font-weight: bold;
   margin: 0 10px;
+  transition: color 0.3s ease;
 }
 
 #social a:hover {
-  text-decoration: underline;
+  color: #0277bd;
 }
